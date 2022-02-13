@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import CallGreet from './Components/props01/CallGreet';
+import AppForProps from './Components/props01/AppForProps';
+
 
 function App() {
   return (
     <div className="App">
-      <CallGreet />    {/* for props 01   */}
+      <AppForProps />    {/* for props 01   */}
     </div>
   );
 }
