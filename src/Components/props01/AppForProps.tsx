@@ -10,7 +10,7 @@ const AppForProps = () => {
         second: "Hosen"
     }
 
-    const personsList = [
+    const nameList = [
         {
             first: 'Meherab',
             second:'Ratin'
@@ -41,7 +41,7 @@ const AppForProps = () => {
         <div>
             <GreetProps name="Sajib Hosen" age={24} isLoading={true} />
             <Persone name={prisonName} />
-            <PersonList />
+            <PersonList names={nameList} />
         </div>
     );
 };

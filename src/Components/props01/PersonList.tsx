@@ -1,12 +1,18 @@
 import React from 'react';
 
-const PersonList = () => {
+type nameListProp ={
+    names:{
+        first:string,
+        second: string
+    }[] //declearing array of objects with the properties for each.
+}
+
+const PersonList = (props:nameListProp ) => {
     return (
         <div>
-            <p>This is person list</p>
-            <p>Meherab Ratin</p>
-            <p>Sajib Hosen</p>
-            <p>Alamin Mullah</p>
+            {props.names.map(name =>{
+                return (<p>{name.first} {name.second}</p>)
+            })}
         </div>
     );
 };
