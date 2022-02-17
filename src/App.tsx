@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import AppForAdvProps from './Components/advProps02/AppForAdvProps';
+import AppEventProps from './Components/eventProps03/AppEventProps';
 import AppForProps from './Components/props01/AppForProps';
 
 
@@ -9,11 +10,18 @@ function App() {
     <div className="App">
 
       {/* This is for basic Props, video 1-4   */}
-      {/* <AppForProps />   */}
+      <p>basic Props</p>
+      <AppForProps />  
 
       {/*This is for Advance Props video 5*/}
+      <p>Advance Props</p>
       <AppForAdvProps /> 
 
+      {/*This is for Event Props video 6*/}
+      <p>Event Props</p>
+      <AppEventProps />
+
+      
     </div>
   );
 } 
