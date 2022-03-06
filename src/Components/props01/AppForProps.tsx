@@ -38,7 +38,7 @@ const AppForProps = () => {
     ]
     
     return (
-        <div>
+        <div className='border-2'>
             <GreetProps name="Sajib Hosen" age={24} isLoading={true} />
             <Persone name={prisonName} />
             <PersonList names={nameList} />

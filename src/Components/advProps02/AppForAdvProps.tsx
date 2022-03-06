@@ -7,7 +7,7 @@ import Status from './Status';
 
 const AppForAdvProps = () => {
     return (
-        <div>
+        <div className='border-2'>
             <p>Hi this is from advance props, video 05</p>
             <Status status='error' />
 

@@ -3,6 +3,7 @@ import './App.css';
 import AppForAdvProps from './Components/advProps02/AppForAdvProps';
 import AppEventProps from './Components/eventProps03/AppEventProps';
 import AppForProps from './Components/props01/AppForProps';
+import AppStyleProps from './Components/stypeProps4/AppStyleProps';
 
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
       {/*This is for Event Props video 6*/}
       <p>Event Props</p>
       <AppEventProps />
+
+      {/* This is for Style Props  */}
+      <p>Style Props</p>
+      <AppStyleProps />
 
       
     </div>
