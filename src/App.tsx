@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import AppForAdvProps from './Components/advProps02/AppForAdvProps';
 import AppEventProps from './Components/eventProps03/AppEventProps';
+import AppState from './Components/Hooks/State/AppState';
 import AppForProps from './Components/props01/AppForProps';
 import AppStyleProps from './Components/stypeProps4/AppStyleProps';
 
@@ -25,6 +26,10 @@ function App() {
       {/* This is for Style Props  */}
       <p>Style Props</p>
       <AppStyleProps />
+
+      {/* this is for React Hooks  */}
+      <p>React Hooks</p>
+      <AppState />
 
       
     </div>

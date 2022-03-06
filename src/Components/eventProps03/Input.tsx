@@ -4,7 +4,7 @@ type inputProps ={
     handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void
 }
 
-const Input = (props: inputProps) => {
+const Input = ({value, handleChange}: inputProps) => { // distructuring props
 
     const handleInputChange = ( event: React.ChangeEvent<HTMLInputElement> ) =>{
         console.log( 'this is', event.target.value)
@@ -12,7 +12,7 @@ const Input = (props: inputProps) => {
 
     return (
         <div>
-            <input type="text" onChange={(event)=>{handleInputChange(event)}}  placeholder='input field' />
+            <input type="text" value={value} onChange={(event)=>{handleInputChange(event)}}  placeholder='input field' />
         </div>
     );
 };
