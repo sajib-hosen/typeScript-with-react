@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import AppForAdvProps from './Components/advProps02/AppForAdvProps';
 import AppEventProps from './Components/eventProps03/AppEventProps';
+import AppContext from './Components/Hooks/Context/AppContext';
+import AppReducer from './Components/Hooks/Reducer/AppReducer';
 import AppState from './Components/Hooks/State/AppState';
 import AppForProps from './Components/props01/AppForProps';
 import AppStyleProps from './Components/stypeProps4/AppStyleProps';
@@ -27,11 +29,19 @@ function App() {
       <p>Style Props</p>
       <AppStyleProps />
 
-      {/* this is for React Hooks  */}
-      <p>React Hooks</p>
+      {/* this is for React Hooks - useState  */}
+      <p>React Hooks - useState</p>
       <AppState />
 
-      
+      {/* this is for React Hooks - useReducer  */}
+      <p>React Hooks - useReducer</p>
+      <AppReducer />
+
+      {/* this is for React Hooks - useContext  */}
+      <p>React Hooks - useContext</p>
+      <AppContext />
+
+      <br /><br /><br /><br /><br />
     </div>
   );
 } 

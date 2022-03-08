@@ -6,7 +6,8 @@ type authUser = {
 }
 
 const User = () => {
-    const [user, setUser] = useState< authUser | null >(null)
+    const [user, setUser] = useState< authUser | null >(null)   //                    | both are same
+    // const [user, setUser] = useState< authUser >({} as authUser) // Type Assertion |
     const handleLogIn = () => {
         setUser({
             name: 'SAJIB',
