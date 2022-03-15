@@ -3,6 +3,7 @@ import './App.css';
 import AppForAdvProps from './Components/advProps02/AppForAdvProps';
 import AppEventProps from './Components/eventProps03/AppEventProps';
 import AppContext from './Components/Hooks/Context/AppContext';
+import AppContextAdv from './Components/Hooks/contextAdv/AppContextAdv';
 import AppReducer from './Components/Hooks/Reducer/AppReducer';
 import AppState from './Components/Hooks/State/AppState';
 import AppForProps from './Components/props01/AppForProps';
@@ -40,6 +41,10 @@ function App() {
       {/* this is for React Hooks - useContext  */}
       <p>React Hooks - useContext</p>
       <AppContext />
+
+      {/* this is for React Hooks - useContext  */}
+      <p>React Hooks - useContext ADV</p>
+      <AppContextAdv />
 
       <br /><br /><br /><br /><br />
     </div>
